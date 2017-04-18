@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include "Conversor.h"
 
+// Converte um caracter para inteiro.
 int CharPraInt(char caracter){
 	int numero = 0;
 
@@ -31,6 +32,7 @@ int CharPraInt(char caracter){
 	return numero;
 }
 
+// Testa regras de negócio para confirmar validade de uma string.
 bool StringValida(char str[30]){
 	int cont, cont2 = 0;
 	bool validador = true;
@@ -62,6 +64,7 @@ bool StringValida(char str[30]){
 	return validador;
 }
 
+// Converte uma string para inteiro.
 int ConverteString(char str[30]){
 	int cont, cont2 = 0, num, num2, NumeroConvertido = 0;
 	bool valido;
