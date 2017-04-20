@@ -1,0 +1,15 @@
+Para a aplicação dos testes foi utilizado o GoogleTest
+
+Os testes foram dividos em três modulos, que representam os módulos apresentados no programa TDD.c
+
+Modulo de Testes de Validade:
+	Todos os testes rodados nesse módulo testam se o vetor de caracteres usado para representar um número romano é válido ou não.
+
+Modulo de Testes de Conversão de um caracter para um inteiro:
+	Todos os testes rodados nesse módulo testam se o caracter usado para representar um número romano é válido ou não
+        e ainda testam se a conversão foi feita corretamente.
+
+Modulo de Testes de Conversão de um vetor de caracteres para um inteiro:
+	Todos os testes rodados nesse módulo testam se o vetor de caracteres usado para representar um número romano é válido ou não.
+        Testam se a conversão de um número romano para um número abárico foi feita corretamente, e se foi feita corretamente testa se o valor
+	está entre o valor estipulado para os casos de teste.
