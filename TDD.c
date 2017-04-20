@@ -4,7 +4,7 @@
 #include <stdbool.h>
 #include "Conversor.h"
 
-//Funcao que converte um caracter para inteiro, recebendo como parâmetro o caracter que vai ser convertido
+//Funcao que converte um caracter para inteiro, recebendo como parâmetro o caracter que vai ser convertido 
 //Retorna um inteiro, se o caracter representar um numero romano valido
 //O valor retornado eh o numero arabico que representa o numero romano representado pelo caracter enviado como parametro, caso contrario o valor retornado eh 0.
 int CharPraInt(char caracter){

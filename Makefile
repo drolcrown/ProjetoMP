@@ -1,11 +1,11 @@
 IDIR =../Include
 CXX= g++
-CXXFLAGS=-I$(IDIR) -g -D_TEST
+CXXFLAGS=-I$(IDIR) -g -D_TEST -ftest-coverage -fprofile-arcs
 
 ODIR=../OBJ
 LDIR=../LIB
 
-LIBS= -lgtest -lpthread -lgtest_main -g
+LIBS= -lgtest -lpthread -lgtest_main -g -coverage -lgcov
 
 _DEPS= Conversor.h
 DEPS= $(patsubst %,$(IDIR)/%,$(_DEPS))
